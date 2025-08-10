@@ -33,29 +33,21 @@
 
   ### **2\. Data Analysis**
 
-* ### **Input:**    Cleaned chat dataset (CSV) containing conversation text, metadata, and clean text.
+* **Input:**  
+   Cleaned chat dataset (CSV) containing conversation text, metadata, and clean text.  
+* Logic:  
+  Perform exploratory data analysis (EDA) to understand dataset characteristics.  
+  Generate multiple visualizations:  
+  * Message count distribution (`plot_message_count_distribution`).  
+  * Conversation length distribution (`plot_text_length_distribution`).  
+  * Product label distribution (`plot_product_distribution`).  
+  * Activity by hour (`plot_activity_by_time_and_product("hour")`).  
+  * Activity by date (`plot_activity_by_time_and_product("date")`).  
+  * Word cloud of most frequent terms (`generate_wordcloud`).  
+  * Top words per product (`plot_top_words_by_product`).
 
-* ### **Logic:**
-
-  ### Perform exploratory data analysis (EDA) to understand dataset characteristics.
-
-  ### Generate multiple visualizations:
-
-  * ### Message count distribution (`plot_message_count_distribution`).
-
-  * ### Conversation length distribution (`plot_text_length_distribution`).
-
-  * ### Product label distribution (`plot_product_distribution`).
-
-  * ### Activity by hour (`plot_activity_by_time_and_product("hour")`).
-
-  * ### Activity by date (`plot_activity_by_time_and_product("date")`).
-
-  * ### Word cloud of most frequent terms (`generate_wordcloud`).
-
-  * ### Top words per product (`plot_top_words_by_product`). 
-
-* ### **Output:**    A set of visual analytics plots providing insights into dataset structure, product distribution, temporal activity patterns, and common vocabulary.
+* **Output:**  
+   A set of visual analytics plots providing insights into dataset structure, product distribution, temporal activity patterns, and common vocabulary.
 
 
   ---
