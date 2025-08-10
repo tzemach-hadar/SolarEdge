@@ -14,7 +14,7 @@ This project automates the classification of chat conversations to:
 
 ## Quick Start
 ```bash
-git clone https://github.com/<your-username>/SolarEdge.git
+git clone https://github.com/tzemach-hadar/SolarEdge.git
 cd SolarEdge
 pip install -r requirements.txt
 
